@@ -1,0 +1,25 @@
+{
+  "name": "@ink-os/app-spreadsheet",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 4676",
+    "build": "vite build",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "@glideapps/glide-data-grid": "6.0.3",
+    "fast-formula-parser": "1.0.19",
+    "lodash": "4.17.21",
+    "marked": "4.3.0",
+    "papaparse": "5.7.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-responsive-carousel": "3.2.23"
+  },
+  "devDependencies": {
+    "vite": "8.3.5"
+  },
+  "license": "MIT"
+}

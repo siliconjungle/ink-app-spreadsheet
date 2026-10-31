@@ -1,0 +1,7 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {resolve} from 'node:path';import {WorkbookModel,cellPath} from '../src/model.mjs';
+const os=process.env.INK_OS_PLATFORM_DIR||resolve(new URL('../..',import.meta.url).pathname,'ink-os-platform');const {SharedState}=await import(os+'/shared/state.mjs');
+test('actual Ink replicas preserve concurrent different cells, converge on same-cell conflicts and survive a checkpoint',async()=>{
+ const a=new SharedState({actor:101n}),b=new SharedState({actor:202n}),pendingA=[],pendingB=[];a.onLocal=ops=>pendingA.push(...ops);b.onLocal=ops=>pendingB.push(...ops);a.set('/sheets/main',{name:'Sheet1',created:1});b.apply(pendingA.splice(0));a.set(cellPath('main',0,0),'From Alice');b.set(cellPath('main',0,1),'From Bob');a.apply(pendingB);b.apply(pendingA);assert.equal(a.get(cellPath('main',0,1)),'From Bob');assert.equal(b.get(cellPath('main',0,0)),'From Alice');pendingA.length=pendingB.length=0;
+ a.set(cellPath('main',1,0),'12');b.set(cellPath('main',1,0),'20');a.set(cellPath('main',1,1),'=A2*2');a.apply(pendingB);b.apply(pendingA.slice().reverse());b.apply(pendingA);assert.deepEqual(a.entries().sort(),b.entries().sort());assert.equal(new WorkbookModel(a.entries()).value('main',1,1),40);
+ const reopened=new SharedState({actor:303n});await reopened.restore(await a.checkpoint());assert.equal(new WorkbookModel(reopened.entries()).value('main',1,1),40);reopened.set(cellPath('main',2,0),'Offline edit');assert.equal(reopened.get(cellPath('main',0,1)),'From Bob');
+});

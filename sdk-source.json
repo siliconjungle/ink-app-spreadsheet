@@ -1,0 +1,46 @@
+{
+  "baselineCommit": "2149e2b36680fb653214e8af195a32e634b272cf",
+  "files": [
+    {
+      "source": "src/browser.js",
+      "path": "src/vendor/sdk/browser.js",
+      "sha256": "0299f7924aed66b7d5e7dccacb6d50fea8d5ea3f2de47bf23a98c9af8a384e2c"
+    },
+    {
+      "source": "src/gestures.js",
+      "path": "src/vendor/sdk/gestures.js",
+      "sha256": "8c5ca686dc0917069a41233cf3dd3b8a2130ea0cbeb0a8b971372609e26b1c15"
+    },
+    {
+      "source": "src/desktop-keys.js",
+      "path": "src/vendor/sdk/desktop-keys.js",
+      "sha256": "22a9977622fc66bd6423a8267c49c4a88480387b2654b5fff3c7b336a67ba102"
+    },
+    {
+      "source": "src/live-query.js",
+      "path": "src/vendor/sdk/live-query.js",
+      "sha256": "bff9ae3322c41de933ae6e466b3189909aaf4e455a82b4056f03e5c9ab16c88a"
+    },
+    {
+      "source": "styles/font.css",
+      "path": "public/styles/font.css",
+      "sha256": "cff86e1cf2ccabc79e230e2b8c9da4a673e95379d4f58404008e77f7bee4e6a2"
+    },
+    {
+      "source": "styles/fonts/inter-latin-wght-normal.woff2",
+      "path": "public/styles/fonts/inter-latin-wght-normal.woff2",
+      "sha256": "3100e775e8616cd2611beecfa23a4263d7037586789b43f035236a2e6fbd4c62"
+    },
+    {
+      "source": "styles/fonts/OFL.txt",
+      "path": "public/styles/fonts/OFL.txt",
+      "sha256": "3b0a5fca3d17942cde889069889dedbbbd075e9b599968c82a95f4d944e9b345"
+    },
+    {
+      "source": "styles/tokens.css",
+      "path": "public/styles/tokens.css",
+      "sha256": "9c46bb30d14123813e9ceded7db37269dc6cffb9c4ea9088a140227632c01085"
+    }
+  ],
+  "distribution": "Bundled Ink OS SDK assets"
+}

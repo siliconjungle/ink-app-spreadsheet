@@ -1,0 +1,76 @@
+{
+  "slug": "spreadsheet",
+  "title": "Spreadsheet",
+  "repository": "https://github.com/siliconjungle/ink-app-spreadsheet",
+  "directory": "dist",
+  "entry": "index.html",
+  "desktop": {
+    "entry": "spreadsheet",
+    "context": "self",
+    "icon": "./icon.svg",
+    "dock": false,
+    "window": {
+      "width": 1120,
+      "height": 760
+    },
+    "fileTypes": [
+      ".inksheet",
+      "application/vnd.ink.spreadsheet+json"
+    ],
+    "dropTypes": [
+      ".csv",
+      ".tsv",
+      "text/csv",
+      "text/tab-separated-values"
+    ]
+  },
+  "capabilities": [
+    "world.read",
+    "world.write",
+    "desktop.open"
+  ],
+  "commands": [
+    {
+      "id": "sheets",
+      "title": "Show spreadsheet files",
+      "description": "Browse or search show spreadsheet files.",
+      "inputs": [
+        {
+          "name": "q",
+          "label": "Search",
+          "type": "text",
+          "required": false
+        },
+        {
+          "name": "offset",
+          "label": "Offset",
+          "type": "number",
+          "required": false,
+          "default": 0
+        },
+        {
+          "name": "limit",
+          "label": "Results per page",
+          "type": "number",
+          "required": false,
+          "default": 30
+        }
+      ],
+      "handler": {
+        "type": "query",
+        "query": {
+          "kind": "file",
+          "fileTypes": [
+            "*"
+          ]
+        }
+      },
+      "result": {
+        "items": "objects",
+        "title": "title",
+        "subtitle": "kind"
+      }
+    }
+  ],
+  "commandsClient": "commands.mjs"
+}
