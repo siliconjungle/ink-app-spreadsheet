@@ -1,0 +1,62 @@
+{
+  "schema": 1,
+  "source": "ink/csv.ink",
+  "source_sha256": "52233c43ba5422d2f860c50117806b3661df7f37ec3279e5a8f8d2fee3f63f59",
+  "compiler": "ink 0.1.0 (ink-executable-core-v1)",
+  "training": {
+    "objective": "recovery",
+    "files": 32,
+    "initial_wrong_rows": 32,
+    "final_wrong_rows": 0,
+    "evaluations": 503,
+    "seed": 0
+  },
+  "heldout": {
+    "files": 32,
+    "wrong_rows_untrained": 28,
+    "wrong_rows_trained": 0
+  },
+  "learned_table": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    7,
+    0,
+    0,
+    5,
+    0
+  ],
+  "holes": [
+    {
+      "admission": "error-path",
+      "choices": 8,
+      "declaration": "decide",
+      "family": "choice",
+      "field": "recover",
+      "name": "recover",
+      "parameters": 24
+    }
+  ],
+  "files": {
+    "program.mjs": "c23f13568c496fb1b164639465f46c774d50f70214eb586d94c7937c454253f4",
+    "program.mjs.source.mjs": "bc6a999035eddfbdcf390f42836c62924279b1a048010229865f495c5c2444d5",
+    "program.mjs.initial-state.mjs": "53cefc4c94122821f822f12e6dad784f5f102cd464b1ef308c6aec376816bb4e",
+    "program.mjs.initial.snapshot": "61944f8bf7dc6b4788b8d2952c6f54be4f61014c43acb17ba5a48047ea4f46e2"
+  }
+}

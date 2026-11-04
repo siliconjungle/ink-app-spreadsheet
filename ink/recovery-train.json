@@ -1,0 +1,632 @@
+[
+ [
+  {
+   "text": "yes no,budget,2026-11-04 日本,19\" screen\nplan,alpha alpha,\"Kim, alpha\",café 2026-11-04\n",
+   "delimiter": 44,
+   "cells": [
+    [
+     "yes no",
+     "budget",
+     "2026-11-04 日本",
+     "19\" screen"
+    ],
+    [
+     "plan",
+     "alpha alpha",
+     "Kim, alpha",
+     "café 2026-11-04"
+    ]
+   ]
+  },
+  {
+   "text": "2026-11-04\tQ3\nbudget 12\tAna café\nAna -4\t23\" screen\n",
+   "delimiter": 9,
+   "cells": [
+    [
+     "2026-11-04",
+     "Q3"
+    ],
+    [
+     "budget 12",
+     "Ana café"
+    ],
+    [
+     "Ana -4",
+     "23\" screen"
+    ]
+   ]
+  },
+  {
+   "text": "\"alpha \"ok\" alpha\"\t3.5 no\tZoë new york\tQ3 Q3\r\ncafé\t-4\tyes ok\t-4\r\nAna\t2026-11-04\t3.5 plan\tno 3.5\r\nKim\tyes 日本\tdraft, Q3\tnorth",
+   "delimiter": 9,
+   "cells": [
+    [
+     "alpha \"ok\" alpha",
+     "3.5 no",
+     "Zoë new york",
+     "Q3 Q3"
+    ],
+    [
+     "café",
+     "-4",
+     "yes ok",
+     "-4"
+    ],
+    [
+     "Ana",
+     "2026-11-04",
+     "3.5 plan",
+     "no 3.5"
+    ],
+    [
+     "Kim",
+     "yes 日本",
+     "draft, Q3",
+     "north"
+    ]
+   ]
+  },
+  {
+   "text": "\"日本, Q3\",Q3\r\n\"Ana\nQ3\",yes 12\r\nalpha,\"Ana café",
+   "delimiter": 44,
+   "cells": [
+    [
+     "日本, Q3",
+     "Q3"
+    ],
+    [
+     "Ana\nQ3",
+     "yes 12"
+    ],
+    [
+     "alpha",
+     "Ana café"
+    ]
+   ]
+  },
+  {
+   "text": "4\" screen\tQ3, yes\tKim draft\ndraft Ana\tplan 12\tZoë new york\n",
+   "delimiter": 9,
+   "cells": [
+    [
+     "4\" screen",
+     "Q3, yes",
+     "Kim draft"
+    ],
+    [
+     "draft Ana",
+     "plan 12",
+     "Zoë new york"
+    ]
+   ]
+  },
+  {
+   "text": "tea alpha,plan,Q3 日本,café 3.5\n\"plan, 2026-11-04\",budget -4,alpha 12,\"tea 12",
+   "delimiter": 44,
+   "cells": [
+    [
+     "tea alpha",
+     "plan",
+     "Q3 日本",
+     "café 3.5"
+    ],
+    [
+     "plan, 2026-11-04",
+     "budget -4",
+     "alpha 12",
+     "tea 12"
+    ]
+   ]
+  },
+  {
+   "text": "Kim 3.5,\"日本 \"Bob\" no\"\r\n\"Zoë, north\",\"Q3, Kim\"\r\n\"\"\"12\"\"\",3.5 12\r\n",
+   "delimiter": 44,
+   "cells": [
+    [
+     "Kim 3.5",
+     "日本 \"Bob\" no"
+    ],
+    [
+     "Zoë, north",
+     "Q3, Kim"
+    ],
+    [
+     "\"12\"",
+     "3.5 12"
+    ]
+   ]
+  },
+  {
+   "text": "north, -4\ttea\nnorth plan\tok\nplan Kim\t\"alpha north",
+   "delimiter": 9,
+   "cells": [
+    [
+     "north, -4",
+     "tea"
+    ],
+    [
+     "north plan",
+     "ok"
+    ],
+    [
+     "plan Kim",
+     "alpha north"
+    ]
+   ]
+  },
+  {
+   "text": "\"plan\n2026-11-04\",\"yes\nQ3\"\r\nbudget,\"café \"Bob\" 12\"\r\n",
+   "delimiter": 44,
+   "cells": [
+    [
+     "plan\n2026-11-04",
+     "yes\nQ3"
+    ],
+    [
+     "budget",
+     "café \"Bob\" 12"
+    ]
+   ]
+  },
+  {
+   "text": "-4 12,12,budget ok\n\"draft \"ok\" north\",3.5 ok,\"café\nnew york\"\n\"3.5\nnorth\",yes,\"plan, 12\"\nnew york Zoë,plan new york,\"\"\"budget\"\"\"\n",
+   "delimiter": 44,
+   "cells": [
+    [
+     "-4 12",
+     "12",
+     "budget ok"
+    ],
+    [
+     "draft \"ok\" north",
+     "3.5 ok",
+     "café\nnew york"
+    ],
+    [
+     "3.5\nnorth",
+     "yes",
+     "plan, 12"
+    ],
+    [
+     "new york Zoë",
+     "plan new york",
+     "\"budget\""
+    ]
+   ]
+  },
+  {
+   "text": "\"alpha, new york\",no no,19\" screen,north Ana\nQ3,12,tea café,\"Zoë, 12\"\n",
+   "delimiter": 44,
+   "cells": [
+    [
+     "alpha, new york",
+     "no no",
+     "19\" screen",
+     "north Ana"
+    ],
+    [
+     "Q3",
+     "12",
+     "tea café",
+     "Zoë, 12"
+    ]
+   ]
+  },
+  {
+   "text": "2026-11-04 Kim\t14\" panel\n12, Q3\t2026-11-04\nZoë\tplan\n",
+   "delimiter": 9,
+   "cells": [
+    [
+     "2026-11-04 Kim",
+     "14\" panel"
+    ],
+    [
+     "12, Q3",
+     "2026-11-04"
+    ],
+    [
+     "Zoë",
+     "plan"
+    ]
+   ]
+  },
+  {
+   "text": "Ana\tdraft draft\ndraft 2026-11-04\t\"café new york",
+   "delimiter": 9,
+   "cells": [
+    [
+     "Ana",
+     "draft draft"
+    ],
+    [
+     "draft 2026-11-04",
+     "café new york"
+    ]
+   ]
+  },
+  {
+   "text": "Q3 yes,日本,Q3 tea,plan\r\nno,-4 Ana,Ana,budget ok\r\ntea,yes,-4,\"no café",
+   "delimiter": 44,
+   "cells": [
+    [
+     "Q3 yes",
+     "日本",
+     "Q3 tea",
+     "plan"
+    ],
+    [
+     "no",
+     "-4 Ana",
+     "Ana",
+     "budget ok"
+    ],
+    [
+     "tea",
+     "yes",
+     "-4",
+     "no café"
+    ]
+   ]
+  },
+  {
+   "text": "new york,Kim alpha,plan alpha\r\n\"日本, draft\",Q3,ok\r\nyes Q3,2026-11-04 budget,café new york\r\nbudget,Kim,\"3.5 Ana",
+   "delimiter": 44,
+   "cells": [
+    [
+     "new york",
+     "Kim alpha",
+     "plan alpha"
+    ],
+    [
+     "日本, draft",
+     "Q3",
+     "ok"
+    ],
+    [
+     "yes Q3",
+     "2026-11-04 budget",
+     "café new york"
+    ],
+    [
+     "budget",
+     "Kim",
+     "3.5 Ana"
+    ]
+   ]
+  },
+  {
+   "text": "3.5 new york,plan no\r\n\"-4, -4\",\"Ana 2026-11-04",
+   "delimiter": 44,
+   "cells": [
+    [
+     "3.5 new york",
+     "plan no"
+    ],
+    [
+     "-4, -4",
+     "Ana 2026-11-04"
+    ]
+   ]
+  },
+  {
+   "text": "日本 Ana\t\"Ana\nalpha\"\t\"yes \"hi\" Q3\"\tno\r\nnew york\ttea -4\tnorth\t3.5\r\nKim new york\t\"ok\nno\"\t\"Ana\nZoë\"\tplan",
+   "delimiter": 9,
+   "cells": [
+    [
+     "日本 Ana",
+     "Ana\nalpha",
+     "yes \"hi\" Q3",
+     "no"
+    ],
+    [
+     "new york",
+     "tea -4",
+     "north",
+     "3.5"
+    ],
+    [
+     "Kim new york",
+     "ok\nno",
+     "Ana\nZoë",
+     "plan"
+    ]
+   ]
+  },
+  {
+   "text": "日本 new york,\"\"\"café\"\"\",\"\"\"12\"\"\",Ana\nAna Kim,new york,3.5 日本,\"12 draft",
+   "delimiter": 44,
+   "cells": [
+    [
+     "日本 new york",
+     "\"café\"",
+     "\"12\"",
+     "Ana"
+    ],
+    [
+     "Ana Kim",
+     "new york",
+     "3.5 日本",
+     "12 draft"
+    ]
+   ]
+  },
+  {
+   "text": "\"\"\"alpha\"\"\",12 2026-11-04,ok,\"Q3\nplan\"\r\n日本,Ana Q3,\"tea, yes\",draft budget\r\nnorth budget,\"\"\"12\"\"\",Q3,\"日本, alpha\"\r\nZoë,12 ok,\"Q3, budget\",\"draft \"hi\" new york\"\r\n",
+   "delimiter": 44,
+   "cells": [
+    [
+     "\"alpha\"",
+     "12 2026-11-04",
+     "ok",
+     "Q3\nplan"
+    ],
+    [
+     "日本",
+     "Ana Q3",
+     "tea, yes",
+     "draft budget"
+    ],
+    [
+     "north budget",
+     "\"12\"",
+     "Q3",
+     "日本, alpha"
+    ],
+    [
+     "Zoë",
+     "12 ok",
+     "Q3, budget",
+     "draft \"hi\" new york"
+    ]
+   ]
+  },
+  {
+   "text": "12 no\tnorth\talpha, no\r\nplan new york\tQ3 tea\t\"Zoë plan",
+   "delimiter": 9,
+   "cells": [
+    [
+     "12 no",
+     "north",
+     "alpha, no"
+    ],
+    [
+     "plan new york",
+     "Q3 tea",
+     "Zoë plan"
+    ]
+   ]
+  },
+  {
+   "text": "\"new york, alpha\",\"Zoë, Ana\",ok\r\nnorth café,\"tea, ok\",10\" panel",
+   "delimiter": 44,
+   "cells": [
+    [
+     "new york, alpha",
+     "Zoë, Ana",
+     "ok"
+    ],
+    [
+     "north café",
+     "tea, ok",
+     "10\" panel"
+    ]
+   ]
+  },
+  {
+   "text": "3.5,3.5\r\nKim,ok\r\n3\" screen,\"budget\ntea\"\r\n\"café, 2026-11-04\",north",
+   "delimiter": 44,
+   "cells": [
+    [
+     "3.5",
+     "3.5"
+    ],
+    [
+     "Kim",
+     "ok"
+    ],
+    [
+     "3\" screen",
+     "budget\ntea"
+    ],
+    [
+     "café, 2026-11-04",
+     "north"
+    ]
+   ]
+  },
+  {
+   "text": "alpha Ana,12 north,Zoë ok,ok\r\nnew york,\"draft, Ana\",12 Ana,\"Q3 café",
+   "delimiter": 44,
+   "cells": [
+    [
+     "alpha Ana",
+     "12 north",
+     "Zoë ok",
+     "ok"
+    ],
+    [
+     "new york",
+     "draft, Ana",
+     "12 Ana",
+     "Q3 café"
+    ]
+   ]
+  },
+  {
+   "text": "3.5 tea,new york,2026-11-04 new york\r\n12 Ana,tea,12 plan\r\n\"ok, no\",-4 north,tea\r\n\"no, plan\",draft plan,19\" panel\r\n",
+   "delimiter": 44,
+   "cells": [
+    [
+     "3.5 tea",
+     "new york",
+     "2026-11-04 new york"
+    ],
+    [
+     "12 Ana",
+     "tea",
+     "12 plan"
+    ],
+    [
+     "ok, no",
+     "-4 north",
+     "tea"
+    ],
+    [
+     "no, plan",
+     "draft plan",
+     "19\" panel"
+    ]
+   ]
+  },
+  {
+   "text": "\"\"\"tea\"\"\",2026-11-04,budget\r\nbudget café,north,Q3\r\nalpha plan,new york draft,draft 2026-11-04\r\n21\" panel,ok,Kim",
+   "delimiter": 44,
+   "cells": [
+    [
+     "\"tea\"",
+     "2026-11-04",
+     "budget"
+    ],
+    [
+     "budget café",
+     "north",
+     "Q3"
+    ],
+    [
+     "alpha plan",
+     "new york draft",
+     "draft 2026-11-04"
+    ],
+    [
+     "21\" panel",
+     "ok",
+     "Kim"
+    ]
+   ]
+  },
+  {
+   "text": "alpha café\tKim\tnew york, Ana\r\nKim plan\t\"Ana \"ok\" plan\"\t日本 plan\r\n",
+   "delimiter": 9,
+   "cells": [
+    [
+     "alpha café",
+     "Kim",
+     "new york, Ana"
+    ],
+    [
+     "Kim plan",
+     "Ana \"ok\" plan",
+     "日本 plan"
+    ]
+   ]
+  },
+  {
+   "text": "\"2026-11-04, plan\",\"2026-11-04, -4\",north\r\n-4,3.5 no,yes budget\r\n2026-11-04,\"Q3, ok\",plan\r\n\"tea \"hi\" tea\",ok 2026-11-04,café no\r\n",
+   "delimiter": 44,
+   "cells": [
+    [
+     "2026-11-04, plan",
+     "2026-11-04, -4",
+     "north"
+    ],
+    [
+     "-4",
+     "3.5 no",
+     "yes budget"
+    ],
+    [
+     "2026-11-04",
+     "Q3, ok",
+     "plan"
+    ],
+    [
+     "tea \"hi\" tea",
+     "ok 2026-11-04",
+     "café no"
+    ]
+   ]
+  },
+  {
+   "text": "\"budget\n-4\",alpha\r\n\"日本, Zoë\",3.5 Zoë\r\nKim,\"Zoë café",
+   "delimiter": 44,
+   "cells": [
+    [
+     "budget\n-4",
+     "alpha"
+    ],
+    [
+     "日本, Zoë",
+     "3.5 Zoë"
+    ],
+    [
+     "Kim",
+     "Zoë café"
+    ]
+   ]
+  },
+  {
+   "text": "yes\t-4 budget\tbudget tea\tQ3\r\n\"Ana \"ok\" ok\"\t日本\tbudget alpha\tok Zoë",
+   "delimiter": 9,
+   "cells": [
+    [
+     "yes",
+     "-4 budget",
+     "budget tea",
+     "Q3"
+    ],
+    [
+     "Ana \"ok\" ok",
+     "日本",
+     "budget alpha",
+     "ok Zoë"
+    ]
+   ]
+  },
+  {
+   "text": "Kim 日本,21\" pipe\r\n2026-11-04,new york ok\r\n",
+   "delimiter": 44,
+   "cells": [
+    [
+     "Kim 日本",
+     "21\" pipe"
+    ],
+    [
+     "2026-11-04",
+     "new york ok"
+    ]
+   ]
+  },
+  {
+   "text": "Kim tea,\"12, Ana\",12,12 budget\n\"tea, ok\",\"\"\"Kim\"\"\",plan,2\" screen",
+   "delimiter": 44,
+   "cells": [
+    [
+     "Kim tea",
+     "12, Ana",
+     "12",
+     "12 budget"
+    ],
+    [
+     "tea, ok",
+     "\"Kim\"",
+     "plan",
+     "2\" screen"
+    ]
+   ]
+  },
+  {
+   "text": "12 ok\talpha budget\n\"budget \"ok\" 12\"\tplan\n",
+   "delimiter": 9,
+   "cells": [
+    [
+     "12 ok",
+     "alpha budget"
+    ],
+    [
+     "budget \"ok\" 12",
+     "plan"
+    ]
+   ]
+  }
+ ]
+]

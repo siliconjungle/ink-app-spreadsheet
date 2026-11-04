@@ -15,7 +15,8 @@
     "package.json": "Public source, tests, required assets or licenses.",
     "scripts": "Public source, tests, required assets or licenses.",
     "src": "Public source, tests, required assets or licenses.",
-    ".gitleaks.toml": "Secret scanner configuration with narrowly scoped source-checksum exceptions."
+    ".gitleaks.toml": "Secret scanner configuration with narrowly scoped source-checksum exceptions.",
+    "ink": "Ink source, labelled training data and build script for the vendored CSV recovery parser."
   },
   "safe_to_remove": {
     "node_modules": "Completed validation output; source, dependency locks and selected test/build receipts are retained.",
