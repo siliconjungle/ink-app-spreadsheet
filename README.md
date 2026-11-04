@@ -31,3 +31,7 @@ The collaboration test uses a sibling `ink-os-platform` checkout, or the directo
 ## License
 
 MIT for app code. Bundled third-party components retain their own licenses and notices.
+
+## Quick preview
+
+Displays live workbook sheets and calculated values without editing cells. Large previews show the first 200 rows and 30 columns. Ink OS can select this reader through `desktop.preview.fileTypes`, independently of Open with. Space opens the temporary preview from a selection; Escape or Space dismisses it, and arrow keys browse the supplied item order.
